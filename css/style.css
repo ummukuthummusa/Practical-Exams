@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(235,18%,26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto',sans-serif;
+    color: hsl(235,18%,26%);
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    height: 75%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container-form{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.form-title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-title h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: hsl(235,18%,26%);
+}
+
+.form-title p{
+    font-weight: 400;
+}
+
+.form-requirment-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.requirment-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.form-inputs label{
+    font-weight: 700;
+    font-size: 12px;
+    color: hsl(235,18%,26%);
+}
+
+
+.form-inputs input{
+    font-family: inherit;
+    border: 1px solid hsl,(231, 7%,60%);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.form-inputs input:hover{
+    border: 1px solid hsl(235,18%,26%);
+}
+
+
+.form-button{
+    width: 100%;
+}
+
+
+.btn{
+    background-color: hsl(235,18%,26%);
+    padding:15px ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.container-img{
+    background-image: url('../images/illustration-sign-up-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
